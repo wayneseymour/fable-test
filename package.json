@@ -1,0 +1,22 @@
+{
+  "name": "fable-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "fable",
+    "watch": "fable -w --target watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fable-compiler": "^0.7.49",
+    "source-map-loader": "^0.2.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "fable-core": "^0.7.28"
+  }
+}
